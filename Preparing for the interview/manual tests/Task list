@@ -1,1 +1,25 @@
+Task 1
+
+In the application, there is an entity called “Product Card”, which includes a parameter “Price”.
+A product card can be created, edited, and deleted.
+
+You have received a new feature request.
+
+Requirement: “When the product price changes sharply (by 30%), a notification ‘Sharp price change’ should be displayed when trying to save the changes.”
+
+What types of testing should be performed to verify this requirement?
+
+Functional testing – to verify that the notification appears correctly when the price changes by more than 30%.
+
+Boundary value testing – to check behavior when the change is exactly 30%.
+
+UI/UX testing – to ensure the notification is displayed correctly (text, position, timing, style).
+
+Regression testing – to confirm that other product card features (create, edit, delete) still work.
+
+Negative testing – to test invalid inputs (zero price, negative price, text instead of numbers).
+
+Cross-browser / cross-platform testing – to ensure the notification appears correctly in different browsers or devices (if it’s a web app).
+
+Data integrity / security testing – to ensure no unwanted data is changed and no sensitive info is leaked.
 
