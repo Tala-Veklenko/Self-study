@@ -12,3 +12,5 @@ The is a sample site you can test with BlazeMeter! https://blazedemo.com/ <br/>
 9) SQL https://sqlzoo.net/wiki/SELECT_names <br/>
 10) SQL https://dataschool.com/learn-sql/ <br/>
 11) https://www.w3schools.com/ <br/>
+12) 400+ питань на співбесіду QA для всіх рівнів (Junior, Middle, Senior) https://dou.ua/forums/topic/44277/
+13) Співбесіда з QA. 250+ запитань для Junior, Middle, Senior https://dou.ua/lenta/articles/interview-qa/
