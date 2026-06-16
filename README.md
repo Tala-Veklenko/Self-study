@@ -27,7 +27,7 @@ Examples:
 * Test Scenarios
 * State Transition Diagrams
 
----
+<br>
 
 ### 🗄 SQL
 
@@ -47,6 +47,7 @@ Practice:
 * Query optimization tasks
 * Database validation scenarios
 
+<br>
 
 ### 🤖 Playwright
 
@@ -65,6 +66,7 @@ Practice:
 * API automation tests
 * End-to-end scenarios
 
+<br>
 
 ### 🔌 API Testing
 
@@ -80,6 +82,7 @@ Practice:
 * Response validation
 * Collection creation
 
+<br>
 
 ## 🎯 Interview Preparation
 
