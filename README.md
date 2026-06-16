@@ -1,16 +1,120 @@
-# Self-study
-### List of sites for self-study <br/> 
-1) https://the-internet.herokuapp.com/ <br/> 
-2) https://demoqa.com/ <br/> 
-3) Welcome to the Simple Travel Agency!
-The is a sample site you can test with BlazeMeter! https://blazedemo.com/ <br/> 
-4) https://www.saucedemo.com/ <br/> 
-5) Test your front-end against a real API https://reqres.in/ <br/> 
-6) AutomationExercise Full-Fledged practice website for Automation Engineers https://www.automationexercise.com/ <br/>
-7) 75+ Testing Practice Websites to Master Software QA in 2024. Master software QA with our massive collection of 75+ practice websites. Level up your automation, API, security & performance testing skills on real testing playgrounds. https://www.ministryoftesting.com/articles/websites-to-practice-testing <br/>
-8) Developers have a number of choices today when it comes to selecting a JavaScript framework or UI library for building scalable web apps. https://todomvc.com/ <br/>
-9) SQL https://sqlzoo.net/wiki/SELECT_names <br/>
-10) SQL https://dataschool.com/learn-sql/ <br/>
-11) https://www.w3schools.com/ <br/>
-12) 400+ питань на співбесіду QA для всіх рівнів (Junior, Middle, Senior) https://dou.ua/forums/topic/44277/
-13) Співбесіда з QA. 250+ запитань для Junior, Middle, Senior https://dou.ua/lenta/articles/interview-qa/
+## 📚 Self-Study Repository
+
+This repository contains my learning materials, practice tasks, and notes collected while developing my QA and test automation skills.
+
+### 📂 Repository Structure
+
+```
+Self-study/
+│
+├── SQL/
+├── JavaScript/
+├── Playwright/
+├── API_Testing/
+├── Test_Design/
+├── Interview_Preparation/
+└── Learning_Resources/
+```
+
+
+### 🧠 Test Design
+
+Examples:
+
+* Mind Maps
+* Flow Diagrams
+* Decision tables
+* Test Scenarios
+* State Transition Diagrams
+
+---
+
+### 🗄 SQL
+
+Topics covered:
+
+* SELECT
+* WHERE
+* ORDER BY
+* GROUP BY
+* JOINs
+* Subqueries
+* CRUD operations
+
+Practice:
+
+* SQL exercises
+* Query optimization tasks
+* Database validation scenarios
+
+
+### 🤖 Playwright
+
+Topics covered:
+
+* Locators
+* Assertions
+* Page Object Model
+* API Testing
+* Fixtures
+* Test Organization
+
+Practice:
+
+* UI automation tests
+* API automation tests
+* End-to-end scenarios
+
+
+### 🔌 API Testing
+
+Tools:
+
+* Postman
+* Swagger
+
+Practice:
+
+* REST API testing
+* Positive and negative scenarios
+* Response validation
+* Collection creation
+
+
+## 🎯 Interview Preparation
+
+Resources and notes used to prepare for QA interviews.
+
+Topics:
+
+* Manual Testing
+* API Testing
+* SQL
+* SDLC / STLC
+* Agile / Scrum
+
+---
+
+## 🔗 Useful Learning Resources
+
+### Testing Practice Websites
+
+* https://the-internet.herokuapp.com/
+* https://demoqa.com/
+* https://blazedemo.com/
+* https://www.saucedemo.com/
+* https://reqres.in/
+* https://www.automationexercise.com/
+* https://todomvc.com/
+
+### SQL Practice
+
+* https://sqlzoo.net/
+* https://dataschool.com/learn-sql/
+
+### QA Learning
+
+* https://www.w3schools.com/
+* https://dou.ua/forums/topic/44277/
+* https://dou.ua/lenta/articles/interview-qa/
+* https://www.ministryoftesting.com/articles/websites-to-practice-testing
