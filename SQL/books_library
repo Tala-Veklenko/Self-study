@@ -1,1 +1,27 @@
+USE book_store;
+
+CREATE TABLE fiction_books (
+    id INT PRIMARY KEY,
+    title VARCHAR(255),
+    author VARCHAR(255),
+    reading_device ENUM('paperbook', 'desktop', 'kindle', 'phone'),
+    reading_status ENUM('will read', 'reading now', 'read')
+);
+
+CREATE TABLE testing_books (
+    id INT PRIMARY KEY,
+    title VARCHAR(255),
+    author VARCHAR(255),
+    reading_device ENUM('paperbook', 'desktop', 'kindle', 'phone'),
+    reading_status ENUM('will read', 'reading now', 'read')
+);
+
+CREATE TABLE english_books (
+    id INT PRIMARY KEY,
+    title VARCHAR(255),
+    author VARCHAR(255),
+    reading_device ENUM('paperbook', 'desktop', 'kindle', 'phone'),
+    reading_status ENUM('will read', 'reading now', 'read')
+);
+
 
