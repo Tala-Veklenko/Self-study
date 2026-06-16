@@ -1,27 +1,25 @@
 USE book_store;
 
-CREATE TABLE fiction_books (
+CREATE TABLE books (
     id INT PRIMARY KEY,
     title VARCHAR(255),
     author VARCHAR(255),
-    reading_device ENUM('paperbook', 'desktop', 'kindle', 'phone'),
+    category_book ENUM('fiction', 'testing', 'English'),
+    reading_device ENUM('paperbook', 'desktop', 'kindle'),
     reading_status ENUM('will read', 'reading now', 'read')
 );
 
-CREATE TABLE testing_books (
-    id INT PRIMARY KEY,
-    title VARCHAR(255),
-    author VARCHAR(255),
-    reading_device ENUM('paperbook', 'desktop', 'kindle', 'phone'),
-    reading_status ENUM('will read', 'reading now', 'read')
-);
-
-CREATE TABLE english_books (
-    id INT PRIMARY KEY,
-    title VARCHAR(255),
-    author VARCHAR(255),
-    reading_device ENUM('paperbook', 'desktop', 'kindle', 'phone'),
-    reading_status ENUM('will read', 'reading now', 'read')
-);
+INSERT INTO books (id, title, author, category_book, reading_device, reading_status)
+VALUES
+(1, 'The Magic Mountain', 'Thomas Mann', 'fiction', 'kindle', 'will read'),
+(2, 'Lessons Learned in Software Testing', 'Bret Pettichord', 'testing', 'desktop', 'will read'),
+(3, 'Explore It!', 'Elisabeth Hendrickson', 'testing', 'kindle', 'will read'),
+(4, 'A Practitioner's Guide to Software Test Design', 'Lee Copeland', 'testing', 'kindle', 'will read'),
+(5, 'How Google Tests Software', 'Jason Joseph Arbon', 'testing', 'paperbook', 'will read'),
+(6, 'Agile Testing', 'Lisa Crispin', 'testing', 'paperbook', 'will read'),
+(7, 'The Old Man and the Sea', 'Ernest Hemingway', 'fiction', 'paperbook', 'will read'),
+(8, 'Educated', 'Tara Westover', 'fiction', 'paperbook', 'reading now')
+(9, 'The cut line', 'Carolina Pihelgas', 'fiction', 'paperbook', 'will read'),
+(10, 'Girl, Interrupted', 'Susanna Kaysen', 'fiction', 'paperbook', 'will read');
 
 
