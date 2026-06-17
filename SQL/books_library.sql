@@ -24,7 +24,16 @@ VALUES
 (9, 'The cut line', 'Carolina Pihelgas', 'fiction', 'paperbook', 'will read'),
 (10, 'Girl, Interrupted', 'Susanna Kaysen', 'fiction', 'paperbook', 'will read');
 
---add column
+--create employees table
+CREATE TABLE employees(
+    id INT NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    middle_name VARCHAR(100), 
+    age INT NOT NULL,
+    current_status VARCHAR(100) NOT NULL DEFAULT 'employed',
+    PRIMARY KEY(id)
+); 
 
 
 --update data
