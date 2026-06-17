@@ -1,5 +1,6 @@
 USE book_store;
 
+--create table
 CREATE TABLE books (
     id INT PRIMARY KEY,
     title VARCHAR(255),
@@ -9,6 +10,7 @@ CREATE TABLE books (
     reading_status ENUM('will read', 'reading now', 'read')
 );
 
+--insert into
 INSERT INTO books (id, title, author, category_book, reading_device, reading_status)
 VALUES
 (1, 'The Magic Mountain', 'Thomas Mann', 'fiction', 'kindle', 'will read'),
@@ -22,4 +24,10 @@ VALUES
 (9, 'The cut line', 'Carolina Pihelgas', 'fiction', 'paperbook', 'will read'),
 (10, 'Girl, Interrupted', 'Susanna Kaysen', 'fiction', 'paperbook', 'will read');
 
+--add column
+
+
+--update data
+
+--drop column
 
