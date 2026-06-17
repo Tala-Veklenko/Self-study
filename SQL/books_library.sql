@@ -1,6 +1,6 @@
 USE book_store;
 
---create table
+--create books table
 CREATE TABLE books (
     id INT PRIMARY KEY,
     title VARCHAR(255),
@@ -9,6 +9,17 @@ CREATE TABLE books (
     reading_device ENUM('paperbook', 'desktop', 'kindle'),
     reading_status ENUM('will read', 'reading now', 'read')
 );
+
+--create employees table
+CREATE TABLE employees (
+    id INT NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    middle_name VARCHAR(100), 
+    age INT NOT NULL,
+    current_status VARCHAR(100) NOT NULL DEFAULT 'employed',
+    PRIMARY KEY(id)
+); 
 
 --insert into
 INSERT INTO books (id, title, author, category_book, reading_device, reading_status)
@@ -23,20 +34,3 @@ VALUES
 (8, 'Educated', 'Tara Westover', 'fiction', 'paperbook', 'reading now')
 (9, 'The cut line', 'Carolina Pihelgas', 'fiction', 'paperbook', 'will read'),
 (10, 'Girl, Interrupted', 'Susanna Kaysen', 'fiction', 'paperbook', 'will read');
-
---create employees table
-CREATE TABLE employees(
-    id INT NOT NULL AUTO_INCREMENT,
-    first_name VARCHAR(100) NOT NULL,
-    last_name VARCHAR(100) NOT NULL,
-    middle_name VARCHAR(100), 
-    age INT NOT NULL,
-    current_status VARCHAR(100) NOT NULL DEFAULT 'employed',
-    PRIMARY KEY(id)
-); 
-
-
---update data
-
---drop column
-
