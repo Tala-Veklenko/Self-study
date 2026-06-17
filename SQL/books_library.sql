@@ -34,3 +34,7 @@ VALUES
 (8, 'Educated', 'Tara Westover', 'fiction', 'paperbook', 'reading now')
 (9, 'The cut line', 'Carolina Pihelgas', 'fiction', 'paperbook', 'will read'),
 (10, 'Girl, Interrupted', 'Susanna Kaysen', 'fiction', 'paperbook', 'will read');
+
+    
+SELECT title, reading_device FROM books;
+    
