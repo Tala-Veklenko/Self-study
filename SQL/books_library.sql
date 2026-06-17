@@ -1,5 +1,3 @@
-USE book_store;
-
 --create books table
 CREATE TABLE books (
     id INT PRIMARY KEY,
@@ -35,6 +33,6 @@ VALUES
 (9, 'The cut line', 'Carolina Pihelgas', 'fiction', 'paperbook', 'will read'),
 (10, 'Girl, Interrupted', 'Susanna Kaysen', 'fiction', 'paperbook', 'will read');
 
-    
+--select commands    
 SELECT title, reading_device FROM books;
     
