@@ -1,11 +1,3 @@
-```bash
-FakeStoreAPI/
-│   │   ├── Postman_Collection.json
-│   │   ├── Test_Cases.md
-│   │   ├── Bug_Reports.md
-│   │   └── API_Test_Report.md
-
-
 ## Overview
 Manual API testing of the Fake Store REST API using Postman.
 
@@ -27,3 +19,9 @@ Login Token https://fakestoreapi.com/auth/login
 - JSON
 - Browser Google Chrome
 
+```bash
+FakeStoreAPI/
+│   │   ├── Postman_Collection.json
+│   │   ├── Test_Cases.md
+│   │   ├── Bug_Reports.md
+│   │   └── API_Test_Report.md
