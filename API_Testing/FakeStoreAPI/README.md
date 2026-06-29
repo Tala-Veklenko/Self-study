@@ -1,7 +1,7 @@
-## Overview
+### Overview
 Manual API testing of the Fake Store REST API using Postman.
 
-## Scope
+#### Scope
 There are 4 main resources need in shopping prototypes:
 
 Products https://fakestoreapi.com/products
@@ -9,12 +9,12 @@ Carts https://fakestoreapi.com/carts
 Users https://fakestoreapi.com/users
 Login Token https://fakestoreapi.com/auth/login
 
-## Testing Type
+#### Testing Type
 - Functional Testing
 - Positive and Negative Testing
 - Boundary Value Testing
 
-## Tools
+#### Tools
 - Postman
 - JSON
 - Browser Google Chrome
